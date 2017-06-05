@@ -1,6 +1,7 @@
 collection = "./collection"; tmpDir = "temp"; idxDir = "index"; cleanFiles = TRUE
 lfiles<-"d1.txt"
 
+# make sure about this file
 source("./preProcess.R")
 
 iFile <- function(collection = "", tmpDir = "temp", idxDir = "index", cleanFiles = TRUE
